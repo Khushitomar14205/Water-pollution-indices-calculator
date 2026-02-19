@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
+import HomePage from './pages/HomePage';
 import Calculator from './components/Calculator';
-import About from './components/About';
+import About from './pages/About';
 import GisMapping from './components/GisMapping';
 import Outputs from './components/Outputs';
 import Result from './components/Result';
@@ -10,7 +10,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import "leaflet/dist/leaflet.css";
 
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
@@ -32,4 +32,5 @@ function App() {
 }
 
 export default App;
+
 
